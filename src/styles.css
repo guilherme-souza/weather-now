@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Helvetica', 'Arial';
+  color: #B4B4B4;
+  background: white;
+}
+
+h5 {
+  color: #737C84;
+}
+
+.loader {
+  border: 0.5rem solid #737C84;
+  border-top: 0.5rem solid #FFFFFF;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  position: relative;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

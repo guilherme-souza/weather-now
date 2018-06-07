@@ -1,0 +1,31 @@
+header {
+  display: block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  background: white;
+  z-index: 1074;
+}
+
+div {
+  display: block;
+}
+
+small {
+  vertical-align: text-top;
+}
+
+.logo {
+  height: 25px;
+}
+
+.container {
+  max-width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F1F1F1;
+  border: 1px solid #EBEBEB;
+}
